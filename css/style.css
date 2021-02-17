@@ -157,3 +157,78 @@ section {
     border-radius: 10px;
  }
 >>>>>>> 3d2163623332c68c78782038c5dfc2783bffb132
+
+/************************* Price ***************************/
+
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.card-price {
+    background:#686868 ;
+    box-shadow: 0 3px 10px rgb(16, 29, 53);
+    width: 25%;
+    max-width: 300px;
+    height: 500px;
+    border-radius: 9px;
+    transition: all 0.3s ease-out;
+    display: grid;
+    place-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.card-price:nth-child(2) {
+    background:  linear-gradient(45deg, #0af3fb 0%, #1b2e2a 100%);
+    margin: 0 2rem;
+    height: 540px;
+}
+
+.card-price:hover {
+    transform: scale(1.03);
+}
+
+.card-price>div {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    align-items: center;
+    color: var(--light);
+}
+
+.card-price>div h3 {
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+.card-price>div h4 {
+    font-size: 40px;
+}
+
+.card-price div p {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.card-price>div ul {
+    margin: 12px 0 32px;
+    list-style: none;
+   
+}
+
+.card-price>div ul li {
+    margin-bottom: 10px;
+}
+
+
+.blue {
+    background-color: #3062d5;
+    color: var(--light);
+}
+
+.black {
+    background-color: #25262d;
+    color: var(--light);
+}
