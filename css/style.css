@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /***************  Home  *************/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
@@ -91,3 +92,68 @@ section {
         font-size: 2rem;
     }
 }
+=======
+/*********************  never stop learning  ************************/
+
+#stats{
+
+    position: relative;
+    height: 100vh;
+    margin: 4rem 0 0;
+    padding: 0;
+    width: 100%;
+    background: url('../img/never-bg.jpg') no-repeat center center/cover;
+    z-index: -1;
+    max-width: 100vw;
+  }
+ 
+ img{
+    display: block;
+    width: 100%;
+ }
+ 
+ #stats::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+    z-index: -1;
+ }
+ .stats-item i{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 1rem;
+ }
+ .title-content h3{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: sans-serif;
+ }
+ 
+ .box-content{
+    text-align: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+    justify-content: center;
+ 
+ }
+ .stats-item{
+    padding: 5px;
+    font-weight: 700;
+    letter-spacing: 1px;
+ }
+ .stats-item p{
+    text-transform: uppercase;
+ }
+ .row{
+    padding: 5px;
+    /* border: 3px solid white; */
+    border-radius: 10px;
+ }
+>>>>>>> 3d2163623332c68c78782038c5dfc2783bffb132
